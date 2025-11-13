@@ -1,0 +1,141 @@
+{
+  "instruments": [
+    {
+      "instrument_id": 432669,
+      "publishers": [
+        {
+          "publisher_id": 1,
+          "bbo": {
+            "bid": {"price": 65.40, "size": 1, "count": 1},
+            "ask": {"price": 64.78, "size": 3, "count": 1}
+          },
+          "levels": {
+            "bids": [
+              {"price": 65.40, "size": 1, "count": 1}
+,              {"price": 64.90, "size": 10, "count": 1}
+,              {"price": 64.79, "size": 1, "count": 1}
+,              {"price": 64.76, "size": 1, "count": 1}
+,              {"price": 64.75, "size": 9, "count": 1}
+,              {"price": 64.71, "size": 5, "count": 3}
+,              {"price": 64.70, "size": 8, "count": 3}
+,              {"price": 64.62, "size": 7, "count": 2}
+,              {"price": 64.61, "size": 10, "count": 1}
+,              {"price": 64.60, "size": 1, "count": 1}
+,              {"price": 64.51, "size": 1, "count": 1}
+,              {"price": 64.45, "size": 1, "count": 1}
+,              {"price": 64.44, "size": 3, "count": 1}
+,              {"price": 64.43, "size": 5, "count": 1}
+,              {"price": 64.40, "size": 1, "count": 1}
+,              {"price": 64.39, "size": 2, "count": 1}
+,              {"price": 64.36, "size": 5, "count": 1}
+,              {"price": 64.35, "size": 1, "count": 1}
+,              {"price": 64.34, "size": 1, "count": 1}
+,              {"price": 64.26, "size": 1, "count": 1}
+,              {"price": 64.22, "size": 1, "count": 1}
+,              {"price": 64.16, "size": 4, "count": 1}
+,              {"price": 64.11, "size": 1, "count": 1}
+,              {"price": 64.06, "size": 1, "count": 1}
+,              {"price": 64.05, "size": 1, "count": 1}
+,              {"price": 64.02, "size": 1, "count": 1}
+,              {"price": 64.00, "size": 1, "count": 1}
+,              {"price": 63.94, "size": 1, "count": 1}
+,              {"price": 63.91, "size": 1, "count": 1}
+,              {"price": 63.80, "size": 2, "count": 2}
+,              {"price": 63.79, "size": 22, "count": 3}
+,              {"price": 63.72, "size": 3, "count": 1}
+,              {"price": 63.71, "size": 4, "count": 1}
+,              {"price": 63.70, "size": 3, "count": 1}
+,              {"price": 63.69, "size": 4, "count": 1}
+,              {"price": 63.68, "size": 4, "count": 1}
+,              {"price": 63.67, "size": 4, "count": 1}
+,              {"price": 63.66, "size": 4, "count": 1}
+,              {"price": 63.65, "size": 4, "count": 1}
+,              {"price": 63.42, "size": 1, "count": 1}
+,              {"price": 63.38, "size": 1, "count": 1}
+,              {"price": 63.29, "size": 1, "count": 1}
+,              {"price": 63.26, "size": 1, "count": 1}
+,              {"price": 63.25, "size": 6, "count": 1}
+,              {"price": 63.21, "size": 1, "count": 1}
+,              {"price": 63.20, "size": 4, "count": 2}
+,              {"price": 63.10, "size": 1, "count": 1}
+,              {"price": 63.05, "size": 2, "count": 1}
+,              {"price": 62.90, "size": 1, "count": 1}
+,              {"price": 62.88, "size": 4, "count": 1}
+,              {"price": 62.87, "size": 1, "count": 1}
+,              {"price": 62.76, "size": 8, "count": 2}
+,              {"price": 62.60, "size": 3, "count": 1}
+,              {"price": 62.11, "size": 10, "count": 1}
+,              {"price": 62.00, "size": 13, "count": 3}
+,              {"price": 61.88, "size": 1, "count": 1}
+,              {"price": 61.84, "size": 1, "count": 1}
+,              {"price": 61.66, "size": 1, "count": 1}
+,              {"price": 61.58, "size": 1, "count": 1}
+,              {"price": 60.96, "size": 1, "count": 1}
+,              {"price": 48.00, "size": 1, "count": 1}
+            ],
+            "asks": [
+              {"price": 64.78, "size": 3, "count": 1}
+,              {"price": 64.79, "size": 5, "count": 3}
+,              {"price": 64.80, "size": 7, "count": 2}
+,              {"price": 64.81, "size": 1, "count": 1}
+,              {"price": 64.82, "size": 20, "count": 3}
+,              {"price": 64.83, "size": 3, "count": 2}
+,              {"price": 64.84, "size": 5, "count": 3}
+,              {"price": 64.85, "size": 3, "count": 2}
+,              {"price": 64.86, "size": 3, "count": 1}
+,              {"price": 64.87, "size": 4, "count": 2}
+,              {"price": 64.88, "size": 1, "count": 1}
+,              {"price": 64.89, "size": 1, "count": 1}
+,              {"price": 64.94, "size": 3, "count": 1}
+,              {"price": 64.95, "size": 2, "count": 2}
+,              {"price": 64.97, "size": 1, "count": 1}
+,              {"price": 64.98, "size": 1, "count": 1}
+,              {"price": 64.99, "size": 1, "count": 1}
+,              {"price": 65.00, "size": 5, "count": 3}
+,              {"price": 65.02, "size": 1, "count": 1}
+,              {"price": 65.04, "size": 1, "count": 1}
+,              {"price": 65.05, "size": 6, "count": 2}
+,              {"price": 65.10, "size": 2, "count": 2}
+,              {"price": 65.15, "size": 5, "count": 1}
+,              {"price": 65.17, "size": 2, "count": 2}
+,              {"price": 65.21, "size": 1, "count": 1}
+,              {"price": 65.24, "size": 4, "count": 1}
+,              {"price": 65.25, "size": 1, "count": 1}
+,              {"price": 65.30, "size": 3, "count": 3}
+,              {"price": 65.31, "size": 3, "count": 1}
+,              {"price": 65.33, "size": 1, "count": 1}
+,              {"price": 65.35, "size": 2, "count": 1}
+,              {"price": 65.38, "size": 3, "count": 1}
+,              {"price": 65.50, "size": 2, "count": 2}
+,              {"price": 65.58, "size": 1, "count": 1}
+,              {"price": 65.75, "size": 2, "count": 1}
+,              {"price": 65.82, "size": 2, "count": 2}
+,              {"price": 65.88, "size": 32, "count": 1}
+,              {"price": 65.90, "size": 20, "count": 1}
+,              {"price": 65.92, "size": 4, "count": 1}
+,              {"price": 65.93, "size": 3, "count": 1}
+,              {"price": 65.94, "size": 4, "count": 1}
+,              {"price": 65.95, "size": 36, "count": 2}
+,              {"price": 65.96, "size": 4, "count": 1}
+,              {"price": 65.97, "size": 4, "count": 1}
+,              {"price": 65.98, "size": 4, "count": 1}
+,              {"price": 66.00, "size": 2, "count": 2}
+,              {"price": 66.65, "size": 1, "count": 1}
+,              {"price": 66.90, "size": 5, "count": 1}
+,              {"price": 67.47, "size": 1, "count": 1}
+,              {"price": 68.00, "size": 1, "count": 1}
+,              {"price": 70.04, "size": 1, "count": 1}
+,              {"price": 72.46, "size": 2, "count": 1}
+            ]
+          }
+        }
+      ],
+      "aggregated_bbo": {
+        "bid": {"price": 65.40, "size": 1, "count": 1},
+        "ask": {"price": 64.78, "size": 3, "count": 1}
+      }
+    }
+  ],
+  "last_ts_recv_iso": "2025-09-24T21:59:59.999903747Z",
+  "mbo_count": 38212
+}

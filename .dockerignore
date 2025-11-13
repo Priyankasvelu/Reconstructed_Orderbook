@@ -1,0 +1,10 @@
+# Ignore build artifacts and VCS metadata
+build/
+.git/
+.gitignore
+Dockerfile
+.dockerignore
+scripts/__pycache__/
+*.pyc
+# Optional: large dbn files (mount them instead)
+*.dbn
