@@ -245,39 +245,6 @@ curl http://localhost:8080/metrics | jq '.peak_concurrent_clients'
 
 ---
 
-##  Design Decisions & Trade-offs
-
-### 1. Single-Pass Replay
-**Decision**: Reconstruct entire order book in one DBN scan
-**Rationale**: Maximizes throughput, simpler state management
-**Trade-off**: Higher memory for full book vs. streaming windows
-
-### 2. Lock-Free Metrics
-**Decision**: Use atomic operations for counters
-**Rationale**: Thread-safe without mutex overhead
-**Trade-off**: Limited to simple counters vs. complex aggregations
-
-### 3. SSE vs WebSocket
-**Decision**: Server-Sent Events for streaming
-**Rationale**: Simpler one-way push, sufficient for order book updates
-**Trade-off**: No bidirectional communication vs. WebSocket complexity
-
-### 4. In-Memory Order Book
-**Decision**: Keep full order book in memory
-**Rationale**: Sub-microsecond access, no disk I/O
-**Trade-off**: Memory usage vs. performance (acceptable for single instrument)
-
-### 5. Price-Level Aggregation
-**Decision**: Aggregate orders at same price across publishers
-**Rationale**: Provides unified market view
-**Trade-off**: Loses per-publisher granularity in JSON output
-
-### 6. cpp-httplib
-**Decision**: Embedded HTTP library vs. external server (nginx)
-**Rationale**: Single binary deployment, simpler architecture
-**Trade-off**: Lower max throughput vs. production-grade servers (sufficient for requirements)
-
----
 
 ##  Validation & Testing
 
